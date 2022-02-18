@@ -1,0 +1,189 @@
+  /* Ignore following classes */
+  
+  * {
+      font-family: "Montserrat", sans-serif;
+      background-color: #eeeeee;
+  }
+  
+  #intro {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin: 50px;
+  }
+  
+  .insideborder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .para {
+      font-weight: 300;
+      margin-left: 10px;
+  }
+  
+  h2 {
+      font-size: medium;
+      font-weight: 200;
+  }
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+      position: relative;
+      height: 300px;
+      width: 500px;
+      border-style: solid;
+      margin-bottom: 5rem;
+  }
+  
+  .horiz {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .sixvert {
+      height: 16.75%;
+  }
+  
+  .eightvert {
+      height: 12.7%;
+  }
+  
+  .twovert {
+      height: 50%;
+  }
+  
+  .threevert {
+      height: 33.3%;
+  }
+  
+  .threehoriz {
+      width: 33.3%;
+  }
+  
+  .skinny {
+      height: 17.5%;
+  }
+  
+  .fat {
+      height: 30%;
+  }
+  
+  .eagle-img {
+      position: absolute;
+      height: 150px;
+      width: 150px;
+      top: 75px;
+      left: 175px;
+      z-index: 1;
+  }
+  
+  .square {
+      position: absolute;
+      height: 70px;
+      width: 70px;
+      top: 0px;
+  }
+  
+  .possqtl {
+      position: absolute;
+      z-index: 2;
+      top: 0px;
+  }
+  
+  .possqtr {
+      position: absolute;
+      z-index: 2;
+      top: 0px;
+      left: 105px;
+  }
+  
+  .possqbl {
+      position: absolute;
+      z-index: 2;
+      top: 105px;
+  }
+  
+  .possqbr {
+      position: absolute;
+      z-index: 2;
+      top: 105px;
+      left: 105px;
+  }
+  
+  .bar1 {
+      position: relative;
+      top: 0px;
+      width: 335px;
+      margin-left: auto;
+      margin-right: 0;
+  }
+  
+  .bar2 {
+      position: relative;
+      top: 30px;
+      width: 325px;
+      margin-left: auto;
+      margin-right: 0;
+  }
+  
+  .bar3 {
+      position: relative;
+      top: 61px;
+      width: 325px;
+      margin-left: auto;
+      margin-right: 0;
+  }
+  
+  .bar4 {
+      position: relative;
+      top: 87px;
+  }
+  
+  .bar5 {
+      position: relative;
+      top: 110px;
+  }
+  
+  .circle {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      position: relative;
+      left: 85px;
+      top: 50px;
+  }
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+      background-color: red;
+  }
+  
+  .orange {
+      background-color: orange;
+  }
+  
+  .yellow {
+      background-color: yellow;
+  }
+  
+  .green {
+      background-color: green;
+  }
+  
+  .blue {
+      background-color: blue;
+  }
+  
+  .lightblue {
+      background-color: lightblue;
+  }
+  
+  .purple {
+      background-color: purple;
+  }
+  
+  .white {
+      background-color: #fff;
+  }
